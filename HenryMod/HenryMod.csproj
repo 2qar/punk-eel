@@ -20,7 +20,6 @@
 
   <ItemGroup>
     <EmbeddedResource Include="HenryBank.bnk" />
-    <EmbeddedResource Include="myassetbundle" />
   </ItemGroup>
 
   <ItemGroup>

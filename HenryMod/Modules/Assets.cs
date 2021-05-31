@@ -33,7 +33,7 @@ namespace HenryMod.Modules
         private static string[] assetNames = new string[0];
 
         // CHANGE THIS
-        private const string assetbundleName = "myassetbundle";
+        private const string assetbundleName = "eelbundle";
 
         internal static void Initialize()
         {

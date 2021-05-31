@@ -21,21 +21,17 @@ namespace HenryMod
         "SoundAPI",
     })]
 
-    public class HenryPlugin : BaseUnityPlugin
+    public class EelPlugin : BaseUnityPlugin
     {
-        // if you don't change these you're giving permission to deprecate the mod-
-        //  please change the names to your own stuff, thanks
-        //   this shouldn't even have to be said
-        public const string MODUID = "com.DeveloperName.MyCharacterMod";
-        public const string MODNAME = "MyCharacterMod";
-        public const string MODVERSION = "1.0.0";
+        public const string MODNAME = "PunkEelMod";
+        public const string MODUID = "com.eels." + MODNAME;
+        public const string MODVERSION = "0.0.1";
 
-        // a prefix for name tokens to prevent conflicts- please capitalize all name tokens for convention
-        public const string developerPrefix = "ROB";
+        public const string developerPrefix = "EELS";
 
         internal List<SurvivorBase> Survivors = new List<SurvivorBase>();
 
-        public static HenryPlugin instance;
+        public static EelPlugin instance;
 
         private void Awake()
         {
